@@ -1,0 +1,22 @@
+{
+  "name": "swagger2ts-rust-cli",
+  "version": "0.0.2",
+  "description": "According to the data model of swagger generated typescript interface by Rust",
+  "main": "index.js",
+  "scripts": {
+    "test": "swagger2ts --help"
+  },
+  "author": "ChiYu",
+  "license": "MIT",
+  "bin": {
+    "swagger2ts": "./bin/index"
+  },
+  "keywords": [
+    "swagger",
+    "swagger2ts",
+    "rust",
+    "typescript",
+    "cli",
+    "generated"
+  ]
+}
