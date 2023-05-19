@@ -18,5 +18,13 @@
     "typescript",
     "cli",
     "generated"
-  ]
+  ],
+  "homepage": "https://github.com/denganjia/swagger2ts-rust-cli",
+  "bugs": {
+    "url": "https://github.com/denganjia/swagger2ts-rust-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:denganjia/swagger2ts-rust-cli.git"
+  }
 }
