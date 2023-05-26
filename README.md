@@ -1,6 +1,6 @@
 # Swagger2TS-Rust_Cli
 
-这是一个根据**远程**`swagger`文档中的`definitions`来生成 `Typescript` `interface` 的命令行工具。
+这是一个根据**远程**`swagger`文档来生成 `Typescript` `interface` 的命令行工具。
 使用 Rust 编写，速度够快。
 
 # 参数
@@ -27,9 +27,18 @@ yarn add swagger2ts-rust-cli -D
 ```
 
 # 使用
-
-```bash
-swagger2ts --url "some-swagger-doc-url"
+```json
+{
+  "scripts":{
+    "trans-swagger":"swagger2ts --url some-swagger-doc-url"
+  }
+}
 ```
 
-默认会在运行的目录下的`api`文件中生成一个`index.d.ts`文件，里面包含了 swagger 的 definitions 里定一个的数据结构，只转化名称为**全英文**的 definitions
+```bash
+yarn trans-swagger
+// or
+npm run trans-swagger
+```
+
+默认会在运行的目录下的`api`文件中生成一个`index.d.ts`文件，里面包含了 swagger 的 definitions 或openapi的components/schemas 里定义的数据结构，只转化名称为**全英文**的 definitions/schemas
