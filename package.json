@@ -1,6 +1,6 @@
 {
   "name": "swagger2ts-rust-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "According to the data model of swagger generated typescript interface by Rust",
   "main": "index.js",
   "scripts": {
